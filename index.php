@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<head><title>community hub reference client</title></head>
+<body style="white-space: pre-wrap;">
 <?php 
 mysql_connect('localhost', 'root', '');
 mysql_select_db('oaitest');
@@ -8,3 +11,4 @@ print_r($row);
 }
 
  ?>
+</body>
