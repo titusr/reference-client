@@ -11,7 +11,9 @@
  * @param array $resumptionToken optional parameter, if not null: resume harvesting
  *             using this resumptionToken
  * 
- * @return resumptionToken info containing keys <code>expirationDate</code>, </code>cursor</code> and <code>resumptionToken</code>, or <code>null</code> if no resumptionToken present
+ * @return resumptionToken info containing keys <code>expirationDate</code>, 
+ *          </code>cursor</code> and <code>resumptionToken</code>, 
+ *          or <code>null</code> if no resumptionToken present
  * 
  * @author Martijn Vogten
  */
